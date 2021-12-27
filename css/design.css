@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  border-top: solid 10px #EC817B;
+  border-bottom: solid 10px #EC817B;
+  height: 300px;
+  background-color: #003255;
+}
+.header .icon {
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.max_width {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-family: "Ubuntu", 微軟正黑體;
+  padding: 50px;
+}
+.content h5 {
+  margin-top: 10px;
+}
+.content .title_hr {
+  width: 100px;
+  height: 6px;
+  background-color: #EC817B;
+}
+.content h1 {
+  font-size: 40px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.content h1.small_english {
+  font-size: 24px;
+}
+.content h2.small_english {
+  font-size: 16px;
+}
+.content h3.small_english {
+  font-size: 12px;
+}
+.content .small_english {
+  margin-top: -15px;
+}
+.content .button {
+  padding: 5px 25px;
+  display: inline-block;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px white;
+}
+.content .button_blue {
+  background-color: #003255;
+  color: #f3f7f7;
+  font-weight: 500;
+}
+.content .button_yellow {
+  background-color: #EC817B;
+  color: #333333;
+}
+.content .color_chip {
+  display: inline-block;
+  margin-right: 25px;
+}
+.content .color_chip .color_block, .content .color_chip .color_tag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content .color_chip .color_tag {
+  width: 65px;
+}
+.content .color_chip .color_block {
+  width: 30px;
+  height: 30px;
+  border: solid 2px white;
+}
+.content .color_chip .color_block_yellow {
+  background-color: #EC817B;
+}
+.content .color_chip .color_block_blue {
+  background-color: #003255;
+}
+.content .color_chip .color_block_white {
+  background-color: #f3f7f7;
+}
+.content .color_chip .color_block_grey {
+  background-color: #333333;
+}
+
+.content_grey {
+  background-color: #333333;
+  color: #f3f7f7;
+}
+.content_grey .small_english {
+  color: #EC817B;
+}
+.content_grey .button_blank {
+  color: #f3f7f7;
+  font-weight: 500;
+}
+.content_grey h1, .content_grey h2, .content_grey h3 {
+  font-weight: 500;
+}
+
+.content_blue {
+  background-color: #003255;
+  color: #f3f7f7;
+}
+.content_blue .small_english {
+  color: #EC817B;
+}
+.content_blue .button_blank {
+  background-color: #333333;
+  color: #f3f7f7;
+  font-weight: 500;
+}
+.content_blue h1, .content_blue h2, .content_blue h3 {
+  font-weight: 500;
+}
+
+.content_white {
+  background-color: #f3f7f7;
+  color: #333333;
+}
+.content_white .small_english {
+  color: #003255;
+}
+.content_white .button {
+  border-color: #003255;
+}
+.content_white .color_chip .color_block_white {
+  border-color: #003255;
+}
